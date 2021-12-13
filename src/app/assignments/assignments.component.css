@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ajouterBtn{
+    align-self: flex;
+}
+
+table {
+    width: 100%;
+  }
+
+  .mat-row:hover {
+    background-color: #e7e9eb;
+  }
+
+  .noColor{
+      text-decoration: none;
+      color: black;
+  }
+  .demo-table {
+    width: 100%;
+  }
+  
+  .demo-button-container {
+    padding-bottom: 16px;
+  }
+  
+  .demo-button + .demo-button {
+    margin-left: 8px;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+  .example-container {
+    height: 450px;
+    overflow: auto;
+  }
